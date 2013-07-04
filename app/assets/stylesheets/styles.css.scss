@@ -1,0 +1,31 @@
+$baseFontFamily: Berkshire Swash;
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+
+
+$btnPrimaryBackground: red;
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.navbar-inner {
+  background: none !important; 
+  border: 0 !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+.footer {
+
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
